@@ -12,12 +12,12 @@ st.text_imput("¿Cual es tu nombre?", key="name")
 st.session_state.name
 
 st.text('¡Hola ' +st.session_state.name+' !')
-'Hola como estas?' , st.session_state.name
+'Hola como estas? ', st.session_state.name
 
 df= pd.read_csv('https://raw.githubusercontent.com/Nick2020-smith/streamlit2/main/resultadoscarrera.csv')
 
 if st.checkbox('Mostrar dataframe'):
-  df
+    df
 
 option = st.selectbox(
     'Selecciona tu corredor favorito:  ' , 
