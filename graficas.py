@@ -5,7 +5,7 @@ from PIL import Image
 st.header('Graficas utilizando Pandas', divider='rainbow')
 st.title("Resultados del Grand Prix de Paises Bajos")
 
-image= Image.open('ruta de imagen')
+image= Image.open('imagenformula.jpg')
 st.image(image, caption='descripcion de imagen')
 
 st.text_imput("¿Cual es tu nombre?", key="name")
