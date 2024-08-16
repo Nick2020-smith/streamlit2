@@ -8,7 +8,7 @@ st.title("Resultados del Grand Prix de Paises Bajos")
 image= Image.open('imagenformula.jpg')
 st.image(image, caption='descripcion de imagen')
 
-st.text_imput("¿Cual es tu nombre?", key="name")
+st.text_input("¿Cual es tu nombre?", key="name")
 st.session_state.name
 
 st.text('¡Hola ' +st.session_state.name+' !')
